@@ -1,6 +1,8 @@
 function range(start, end) {
   if (start > end) {
     return [];
+  } else if (start === end) {
+    return [start];
   }
 
   const result = [];
